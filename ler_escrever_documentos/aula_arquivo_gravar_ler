@@ -1,0 +1,15 @@
+import os #para ajudar com o caminho dos arquivos
+
+
+# cria (ou sobrescreve) um arquivo chamado "dados.txt"
+with open("ler_escrever_documentos/dados.txt", "w") as arquivo:
+    arquivo.write("Primeira linha\n")
+    arquivo.write("Segunda linha\n")
+    print("Arquivo:", arquivo.name)
+    print("Gravou em:", os.path.abspath(arquivo.name))
+
+
+
+# lê o arquivo
+with open("ler_escrever_documentos/dados.txt", "r") as arquivo:
+    print(arquivo.read())
