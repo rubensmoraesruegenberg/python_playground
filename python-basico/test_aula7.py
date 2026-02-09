@@ -1,13 +1,13 @@
 from aula7 import somar, saudacao
 
-def testar_soma():
+def test_soma():
     resultado = somar(2, 3)
     print(f"Testando soma: 2 + 3 = {resultado}")
 
-def testar_saudacao():
+def test_saudacao():
     resultado = saudacao("Rubens")
     print(f"Testando saudação: {resultado}")
 
 # Chamando os testes manualmente
-testar_soma()
-testar_saudacao()
+#test_soma()
+#test_saudacao()
