@@ -8,6 +8,8 @@ def test_saudacao():
     resultado = saudacao("Rubens")
     print(f"Testando saudação: {resultado}")
 
+
+
 # Chamando os testes manualmente
 #test_soma()
 #test_saudacao()
